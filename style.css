@@ -7,6 +7,8 @@
 
 body {
     font-family: 'inter' , sans-serif;
+    color: #303030;
+
 }
 
 header {
@@ -32,7 +34,7 @@ header span {
 .main-title {
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
+    
     margin-bottom: 42px; 
     /* Стили для заголовка в первой секции */
 }
@@ -40,7 +42,7 @@ header span {
 .main-text {
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
+    
     /* Стили для текста в первой секции */
 }
 
@@ -61,7 +63,7 @@ select {
     padding: 9px 87px 8px 12px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030; 
+     
     background: url(/imgs/Vector.svg) no-repeat right 15px top 50%;
     appearance: none;
     /* Стили для выпадающего списка */
@@ -70,7 +72,7 @@ select {
 .section-title {
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
+    
     margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
@@ -78,7 +80,7 @@ select {
 .frameworks-list {
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
+    
     list-style-image: url(/imgs/Vector.png);
     padding-left: 20px;
     /* Стили для маркированного списка во второй секции */
@@ -87,7 +89,7 @@ select {
 .books-list {
     font-weight: 400;
     font-size: 16px;
-    color: #303030; 
+     
     padding-left: 20px;
     /* Стили для нумерованного списка во второй секции */
 }
@@ -95,7 +97,7 @@ select {
 .label {
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
+    
     /* Стили для подписей чекбоксов */
 }
 
@@ -125,17 +127,32 @@ margin: 60px 0;
 }
 
 table {
+    border-collapse: collapse;
     /* Стили для таблицы */
 }
 
 th, td {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 200px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+     
+    padding: 12px 14px 11px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
+    background-color: rgba(163, 167, 255, 0.3);
+    padding: 26px 0 27px;
     /* Стили для футера */
 }
 
 .footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
     /* Стили для футера */
 }
