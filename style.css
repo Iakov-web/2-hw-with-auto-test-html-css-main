@@ -124,6 +124,11 @@ select {
 margin: 60px 0;
     /* Стили для линии */
 }
+[data-cy="hm2-about-table-pre"] {
+    font-weight: normal; 
+    font-size: 14px; /
+}
+
 
 table {
     border-collapse: collapse;
